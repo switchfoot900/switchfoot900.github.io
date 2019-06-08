@@ -24,6 +24,6 @@ else {
 	//OUTPUT Display message to sleep in or wake up
 	document.getElementById('schedule').innerHTML= message;
 
-}
+
 	
 
