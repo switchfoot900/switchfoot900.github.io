@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en"
+   <head>
+      <meta charset="ut-f-x">
+      <meta name="viewport" content="width=device-width, initial scale=1">
+      <title>CIT 160 - Assignment Portal - Deyvson Lopes</title>
+    <meta name= "description" content="This page serves as an assignment portal home page for CIT 160 - an introduction to programming using Javascript at BYU-Idaho.">
+    <link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css"
+   </head>
+   <body>
+
+
+<header>
+	<h1>Week 11: Future Value Calculator</h1>
+	<h2>Deyvson Lopes</h2>
+</header>
+<main>
+	<h3>Calculate Investment Total</h3>
+	<label>Principle Investment<input type="text" id="p"></label> <br>
+	<label>Annual Rate<input type="text" id="apr"></label><br>
+	<label>Years of Investment<input type="text" id="y"></label><br>
+	<label>Periods Per Year<input type="text" id="n"></label><br>
+
+	<label><button onclick="doFV()">Compute Future Value</button></label>
+	<hr>
+	<p>Calculated Balance: $ <span id="output"></span></p>
+</main>
+<footer>
+	&copy;2019 &bull; Deyvson Lopes&bull; BYU-Idaho &bull; CIT 160 &bull; <span id="currentdate"></span>
+</footer>
+
+<script src="js/labproject11.js"></script>
+
+    
+    </body>
+
+    </html>
